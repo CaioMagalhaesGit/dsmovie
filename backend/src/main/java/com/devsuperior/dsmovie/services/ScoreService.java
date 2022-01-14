@@ -36,7 +36,7 @@ public class ScoreService {
 	         if (user == null) {
 	             user = new User();
 	             user.setEmail(dto.getEmail());
-	             user = userRepository.save(user);
+	             user = userRepository.saveAndFlush(user);
 	         }
 	         Movie movie = movieRepository.findById(dto.getMovieId()).get();
 
