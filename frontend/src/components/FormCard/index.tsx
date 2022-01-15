@@ -10,6 +10,7 @@ import './styles.css'
     }
 
     function FormCard ({movieId} : Props){
+      
 
         const [movie, setMovie] = useState<Movie>();
 

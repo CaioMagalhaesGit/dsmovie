@@ -8,8 +8,8 @@ import { useParams } from 'react-router-dom';
 
 
     return (
-        <FormCard movieId ={`${params.movieId}`}/>
-    )
+        <FormCard movieId={`${params.movieId}`}/>
+    );
 }
 
 
